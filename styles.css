@@ -6,15 +6,6 @@
   margin: 0;
 	padding: 0;
 	border: 0;
-	/** 
-	 * By default in modern browsers, 
-	 * 1rem = 16px.
-   *
-	 * Font size for paragraphs should be
-	 * 14px (style-guide.md), 
-	 * so we are going to use 87.5% as base.
-	*/
-	font-size: 87.5%;
 }
 
 :root {
@@ -25,4 +16,16 @@
 	--white: hsl(0, 0%, 100%);
 	--attribution-blue: hsl(228, 45%, 44%);
 	--brandeis-blue: hsl(212, 95%, 48%);
+}
+
+html {
+	/** 
+	 * By default in modern browsers, 
+	 * 1rem = 16px.
+   *
+	 * Font size for paragraphs should be
+	 * 14px (style-guide.md), 
+	 * so we are going to use 87.5% as base.
+	*/
+	font-size: 87.5%;
 }
