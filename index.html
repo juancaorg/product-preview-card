@@ -15,6 +15,18 @@
   <body>
     <main class="product-preview-card">
       <div class="product-preview-card__container">
+        <picture class="product-preview-card__image">
+          <!-- If width is more than 768px, use desktop image. -->
+          <source
+            srcset="./images/image-product-desktop.jpg"
+            media="(min-width: 768px)"
+          />
+          <!-- Otherwise, use mobile image by default. -->
+          <img
+            src="./images/image-product-mobile.jpg"
+            alt="Gabrielle perfume bottle"
+          />
+        </picture>
         <p class="product-preview-card__type">PERFUME</p>
         <h1 class="product-preview-card__title">
           Gabrielle Essence Eau De Parfum
