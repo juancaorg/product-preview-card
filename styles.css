@@ -29,3 +29,18 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+
+.product-preview-card {
+  max-width: 343px;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 9px;
+  /* Center the card within the body grid. */
+  place-self: center;
+}
+
+picture > img {
+	width: 100%;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
