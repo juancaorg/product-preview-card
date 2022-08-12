@@ -21,18 +21,6 @@
 	--brandeis-blue: hsl(212, 95%, 48%);
 }
 
-html {
-	/** 
-	 * By default in modern browsers, 
-	 * 1rem = 16px.
-   *
-	 * Font size for paragraphs should be
-	 * 14px (style-guide.md), 
-	 * so we are going to use 87.5% as base.
-	*/
-	font-size: 87.5%;
-}
-
 body {
 	min-height: 100vh;
 	font-family: "Montserrat", sans-serif;
