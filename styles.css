@@ -105,10 +105,10 @@ picture > img {
 	font-size: 0.875rem;
 	font-weight: 500;
 	letter-spacing: 0.03125rem;
+  padding-left: 6rem;
 	display: flex;
   align-items: center;
   gap: 0.625rem;
-  padding-left: 6rem;
 }
 
 .product-preview-card__cta:hover {
