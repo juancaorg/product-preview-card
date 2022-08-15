@@ -48,3 +48,27 @@ picture > img {
 .product-preview-card__text {
 	padding: 18px 41px 22px;
 }
+
+.product-preview-card__type {
+	color: var(--dark-grayish-blue);
+	letter-spacing: 0.375rem;
+	font-size: 0.75rem;
+	font-weight: 500;
+}
+
+.product-preview-card__title {
+	color: var(--very-dark-blue);
+	font-family: "Fraunces", sans-serif;
+	font-weight: 700;
+	font-size: 1.85rem;
+	padding-top: 0.625rem;
+	padding-bottom: 0.9375rem;
+	line-height: 2rem;
+}
+
+.product-preview-card__description {
+	color: var(--dark-grayish-blue);
+	text-align: start;
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+}
