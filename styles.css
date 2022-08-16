@@ -37,7 +37,9 @@ body {
 	background-color: var(--white);
 	border-radius: 9px;
 	/* Center the card within the body grid. */
-	place-self: center;
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
 }
 
 picture > img {
