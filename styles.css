@@ -116,3 +116,14 @@ picture > img {
 	background-color: var(--sherwood-green);
 	cursor: pointer;
 }
+
+/*
+ * Desktop media queries.
+*/
+
+@media screen and (min-width: 768px) {
+	.product-preview-card {
+		max-width: 600px;
+		flex-direction: row;
+	}
+}
