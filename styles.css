@@ -78,7 +78,6 @@ picture > img {
   padding-top: 1.125rem;	
   padding-bottom: 0.9375rem;
   display: flex;
-  flex-wrap: wrap;
   gap: 1.1875rem;
 }
 
