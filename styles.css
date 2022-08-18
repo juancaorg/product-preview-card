@@ -117,6 +117,20 @@ picture > img {
 	cursor: pointer;
 }
 
+.attribution {
+	color: var(--light-cyan);
+	font-size: 0.875rem; 
+}
+
+.attribution a { 
+	text-decoration: none;
+	color: var(--brandeis-blue); 
+}
+
+.attribution a:hover {
+	color: var(--attribution-blue);
+}
+
 /*
  * Desktop media queries.
 */
