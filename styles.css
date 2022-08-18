@@ -120,6 +120,7 @@ picture > img {
 .attribution {
 	color: var(--light-cyan);
 	font-size: 0.875rem; 
+	text-align: center;
 }
 
 .attribution a { 
