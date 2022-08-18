@@ -27,8 +27,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	background-color: var(--cream);
 	display: grid;
-	align-items: center;
-	justify-content: center;
+	align-content: center;
 }
 
 .product-preview-card {
@@ -121,6 +120,7 @@ picture > img {
 	color: var(--light-cyan);
 	font-size: 0.875rem;
 	text-align: center;
+	padding-top: 1rem;
 }
 
 .attribution a {
