@@ -119,13 +119,13 @@ picture > img {
 
 .attribution {
 	color: var(--light-cyan);
-	font-size: 0.875rem; 
+	font-size: 0.875rem;
 	text-align: center;
 }
 
-.attribution a { 
+.attribution a {
 	text-decoration: none;
-	color: var(--brandeis-blue); 
+	color: var(--brandeis-blue);
 }
 
 .attribution a:hover {
@@ -149,17 +149,17 @@ picture > img {
 		border-top-left-radius: 9px;
 		border-top-right-radius: 0;
 		border-bottom-left-radius: 9px;
-  }
+	}
 
-  .product-preview-card__footer {
-  	place-self: center;
-  }
+	.product-preview-card__footer {
+		place-self: center;
+	}
 
-  .product-preview-card__text {
-	  padding: 31px;
-  }
+	.product-preview-card__text {
+		padding: 31px;
+	}
 
-  .product-preview-card__price {
+	.product-preview-card__price {
 		padding-top: 1.5rem;
 		padding-bottom: 2.725rem;
 	}
