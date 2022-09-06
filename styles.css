@@ -26,8 +26,8 @@ body {
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
   background-color: var(--cream);
-  display: grid;
-  align-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-preview-card {
@@ -36,9 +36,9 @@ body {
   background-color: var(--white);
   border-radius: 9px;
   /* Center the card within the body grid. */
+  margin: auto;
   display: flex;
   flex-direction: column;
-  justify-self: center;
 }
 
 picture > img {
@@ -120,7 +120,7 @@ picture > img {
   color: var(--light-cyan);
   font-size: 0.875rem;
   text-align: center;
-  padding-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .attribution a {
