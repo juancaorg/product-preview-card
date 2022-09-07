@@ -23,9 +23,9 @@
 }
 
 body {
-  min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
   background-color: var(--cream);
+  font-family: "Montserrat", sans-serif;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
 }
@@ -35,7 +35,7 @@ body {
   width: 100%;
   background-color: var(--white);
   border-radius: 9px;
-  /* Center the card within the body grid. */
+  /* Center the card within the body */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -125,7 +125,6 @@ picture > img {
   color: var(--light-cyan);
   font-size: 0.875rem;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .attribution a {
