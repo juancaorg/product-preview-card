@@ -85,14 +85,17 @@ picture>img {
 .product-preview-card__new-price {
   color: var(--dark-cyan);
   font-family: "Fraunces", sans-serif;
-  font-weight: 500;
-  font-size: 1.975rem;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 .product-preview-card__old-price {
   color: var(--dark-grayish-blue);
   text-decoration: line-through;
-  font-size: 0.75rem;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1.4375rem;
   align-self: center;
 }
 
