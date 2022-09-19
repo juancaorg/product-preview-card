@@ -62,9 +62,9 @@ picture>img {
   color: var(--very-dark-blue);
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
-  font-size: 1.85rem;
-  padding-top: 0.625rem;
-  padding-bottom: 0.9375rem;
+  font-size: 2rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
   line-height: 2rem;
 }
 
