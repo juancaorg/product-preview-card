@@ -148,7 +148,6 @@ picture>img {
 @media screen and (min-width: 768px) {
   .product-preview-card {
     max-width: 600px;
-    max-height: 450px;
     flex-direction: row;
   }
 
@@ -160,16 +159,17 @@ picture>img {
     border-bottom-left-radius: 0.625rem;
   }
 
-  .product-preview-card__footer {
-    place-self: center;
+  .product-preview-card__text {
+    padding: 2rem;
   }
 
-  .product-preview-card__text {
-    padding: 31px;
+  .product-preview-card__title {
+    margin-top: 1.25rem;
+    margin-bottom: 1.5rem;
   }
 
   .product-preview-card__price {
-    padding-top: 1.5rem;
-    padding-bottom: 2.725rem;
+    margin-top: 1.8125rem;
+    margin-bottom: 1.875rem;
   }
 }
