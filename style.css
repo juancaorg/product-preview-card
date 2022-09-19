@@ -32,9 +32,8 @@ body {
 
 .product-preview-card {
   max-width: 343px;
-  width: 100%;
   background-color: var(--white);
-  border-radius: 9px;
+  border-radius: 10px;
   /* Center the card within the body */
   margin: auto;
   display: flex;
