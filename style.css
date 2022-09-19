@@ -72,7 +72,7 @@ picture>img {
   color: var(--dark-grayish-blue);
   text-align: start;
   font-size: 0.875rem;
-  line-height: 1.5rem;
+  line-height: 1.4375rem;
 }
 
 .product-preview-card__price {
