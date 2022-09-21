@@ -142,7 +142,7 @@ picture>img {
 }
 
 /*
- * Desktop media queries.
+ * Desktop media query.
 */
 
 @media screen and (min-width: 768px) {
